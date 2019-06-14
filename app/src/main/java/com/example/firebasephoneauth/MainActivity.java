@@ -39,8 +39,8 @@ public class MainActivity extends AppCompatActivity {
                 }
 
                 Intent intent = new Intent(MainActivity.this, VerifyPhoneActivity.class);
-                intent.putExtra("mobile", "+91" + mobile);
-                Log.d("mobile no", "+91" + mobile);
+                intent.putExtra("mobile",  mobile);
+                Log.d("mobile no", mobile);
                 startActivity(intent);
             }
         });
